@@ -1,0 +1,39 @@
+    /*
+	Theme Name: Omid Beheshtian
+	Theme URI: https://omidbeheshtian.ir
+	Author: Omid Beheshtian
+	Author URI: https://omidbeheshtian.ir
+	Version: 1.1.1
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: Omid Beheshtian
+*/
+
+body {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/fonts/Shabnam/Shabnam-FD.eot');
+    src: url('assets/fonts/Shabnam/Shabnam-FD.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Shabnam/Shabnam-FD.woff2') format('woff2'), url('assets/fonts/Shabnam/Shabnam-FD.woff') format('woff'), url('assets/fonts/Shabnam/Shabnam-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/Shabnam-Bold/Shabnam-Bold-FD.eot');
+    src: url('assets/fonts/Shabnam-Bold/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Shabnam-Bold/Shabnam-Bold-FD.woff2') format('woff2'), url('assets/fonts/Shabnam-Bold/Shabnam-Bold-FD.woff') format('woff'), url('assets/fonts/Shabnam-Bold/Shabnam-Bold-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-style: normal;
+    font-weight: lighter;
+    src: url('assets/fonts/Shabnam-Light/Shabnam-Light-FD.eot');
+    src: url('assets/fonts/Shabnam-Light/Shabnam-Light-FD.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Shabnam-Light/Shabnam-Light-FD.woff2') format('woff2'), url('assets/fonts/Shabnam-Light/Shabnam-Light-FD.woff') format('woff'), url('assets/fonts/Shabnam-Light/Shabnam-Light-FD.ttf') format('truetype');
+}
