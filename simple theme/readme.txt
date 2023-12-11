@@ -1,10 +1,11 @@
-this theme coded by omidbeheshtian 
+this theme coded by Omid Beheshtian
 *********
 
-https://omidbeheshtian.ir
+https://omidbeheshtian.com
 
++447951295553
 +9809135602489
 
-contact@omidbeheshtian.ir
+omid.enterprise@outlook.com
 
 *********
