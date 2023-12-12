@@ -12,6 +12,7 @@ if (have_posts()) :
     endwhile;
 else :
     echo esc_html__('Nothing found!', 'your-text-domain');
+    // Remember to replace 'your-text-domain'
 endif;
 
 get_footer();
