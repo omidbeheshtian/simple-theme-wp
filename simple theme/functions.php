@@ -18,7 +18,13 @@ add_action('init', 'wpb_custom_new_menu');
 // Add support for post thumbnails
 add_theme_support('post-thumbnails');
 
-// Load theme text domain for translation (Need to be complete!)
+// Add Elementor support
+function my_theme_add_elementor_support() {
+    add_theme_support('elementor');
+}
+add_action('after_setup_theme', 'my_theme_add_elementor_support');
+
+// Load theme text domain for translation (Need to be completed!)
 function load_theme_textdomain() {
     load_theme_textdomain('your-text-domain', get_template_directory() . '/languages');
 }
