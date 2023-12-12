@@ -27,8 +27,20 @@ add_action('after_setup_theme', 'my_theme_add_elementor_support');
 // Add WooCommerce support
 function my_theme_add_woocommerce_support() {
     add_theme_support('woocommerce');
+    add_theme_support('wc-product-gallery-zoom');
+    add_theme_support('wc-product-gallery-lightbox');
+    add_theme_support('wc-product-gallery-slider');
 }
 add_action('after_setup_theme', 'my_theme_add_woocommerce_support');
+
+// Enqueue styles and scripts for WooCommerce
+// Replace 'custom-woocommerce-style' and '/css/woocommerce-style.css' with your actual stylesheet handle and path.
+if (class_exists('WooCommerce')) {
+    function my_theme_enqueue_woocommerce_styles() {
+        wp_enqueue_style('custom-woocommerce-style', get_stylesheet_directory_uri() . '/css/woocommerce-style.css');
+    }
+    add_action('wp_enqueue_scripts', 'my_theme_enqueue_woocommerce_styles');
+}
 
 // Load theme text domain for translation (Need to be completed!)
 function load_theme_textdomain() {
